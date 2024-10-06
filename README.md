@@ -1,64 +1,85 @@
-# Visualize a Space Mission Using Virtual Reality
+### **MissionVoyager: Immersive Space Mission Visualization in Virtual Reality**
 
-# CodeGalore
+---
 
-Our website is a cosmic voyage. It is an educational journey from geeking on space facts to being immersed in the cosmos. Here, we step into the virtual reality of being inside a futuristic spaceship! Where we can choose Earth, Moon, or Mars holograms for separate celestial object experiences.
+**Summary:**  
+MissionVoyager is an educational website offering an immersive journey into space using virtual reality (VR). The platform allows users to explore Earth, the Moon, or Mars from a futuristic spacecraft’s perspective. With cutting-edge VR technology, participants can interact with celestial objects, visualize space missions, and learn about various components such as rovers, satellites, and lunar craters. This experience is enhanced with real-time data from NASA, creating a compelling educational tool for space enthusiasts of all ages.
 
-Select Mars, and you're on a 360° adventure with a rover visualised on the red planet. The rover clicks photos of the planet's surface  everyday. Countless information is available of different components like rover, lander, craters, etc.
+---
 
-Select Earth, and you can experience the stimulated view of the Earth and various satellites orbitting us. Several information about the space bodies present here are explained in detail. A random astronomy picture gets clicked everyday here using NASAs APIs for better pictorial informationof the space.
+### **Features:**
 
-Select Moon, and it allows the user to experience the lunar world in 3D. Viewers can experience the Moon's surface virtually with rovers and other components available.
+#### **1. Mars Exploration:**
+Embark on a thrilling 360° tour of Mars, where users can visualize a rover’s daily journey across the Red Planet’s surface. Interact with various features like the rover, lander, and craters, and access real-time updates and images captured by NASA’s Mars rovers.
 
-Get ready to launch into the universe of knowledge and exploration!
+- **Mars Rover Adventure:** Users can explore the rover’s path, view daily photos, and receive updates on mission progress.
+- **Component Exploration:** Learn about different parts of the mission, such as the rover, lander, and key Martian surface features, all rendered in detailed 3D.
 
-## Acknowledgements
+#### **2. Earth Observation:**
+Experience a simulated view of Earth and its orbiting satellites, witnessing real-time satellite data and information about space missions monitoring our planet. A unique astronomy picture, pulled from NASA’s APIs, is generated daily to provide visual insights into space exploration.
 
-https://eyes.nasa.gov/
+- **Satellite Visualization:** See Earth from a satellite’s perspective and understand the role of satellites in weather monitoring, climate studies, and communications.
+- **Daily Astronomy Picture:** NASA’s Astronomy Picture of the Day (APOD) provides a fresh visual treat of space exploration every day.
 
-https://www.nasa.gov/stem-content/extreme-space-facts/
+#### **3. Moon Exploration:**
+The platform offers a 3D lunar surface experience where users can interact with rovers, landers, and other objects related to Moon missions. This immersive VR experience will give users a feel for walking on the Moon and learning about its surface.
 
-http://sketchfab.com
+- **Lunar Mission Tour:** Explore the Moon’s surface, interact with mission elements, and gain insights into humanity’s lunar exploration history.
+- **Rover Experience:** Navigate the lunar surface alongside the rover, discovering key lunar landmarks and mission objectives.
 
-https://solarsystemscope.com/
+---
 
-https://nasa3d.arc.nasa.gov/models
+### **Acknowledgements:**
 
-https://www.blender.org/
+We’ve utilized various data sources and tools to create an accurate and interactive experience, including:
 
-## API Reference
+- **NASA’s Eyes on the Solar System** – for mission data visualization.
+- **NASA’s Extreme Space Facts** – for educational content on space facts and mission data.
+- **Sketchfab** – for 3D models of space objects.
+- **Solar System Scope** – for celestial object visualization.
+- **NASA 3D Models** – for realistic 3D representations of spacecraft and celestial bodies.
+- **Blender** – for 3D modeling.
 
-1. https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=DEMO_KEY
-2. https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY
+---
 
-## Authors
+### **API Reference:**
 
-* [@sammedsagare](https://www.github.com/sammedsagare)
-* [@praveetgupta](https://www.github.com/praveetgupta)
-* [@Krisha-cmd](https://www.github.com/Krisha-cmd)
-* [@srimjhim700](https://www.github.com/srimjhim700)
-* [@kriishgulati](https://www.github.com/kriishgulati)
-* [@godwinthomas11](https://www.github.com/godwinthomas11)
+- **Mars Rover Photos API**:  
+   `https://api.nasa.gov/mars-photos/api/v1/rovers/curiosity/photos?earth_date=2015-6-3&api_key=DEMO_KEY`
+   
+- **NASA Astronomy Picture of the Day API**:  
+   `https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`
 
-## Deployment
+---
 
-[The CodeGalore Experience](https://space-mission-2.vercel.app)
+### **Authors:**
 
-## Documentation
+- @sammedsagare
+- @praveetgupta
+- @Krisha-cmd
+- @srimjhim700
+- @kriishgulati
+- @godwinthomas11
 
-You can access the needed files [here.](https://drive.google.com/drive/folders/1PpJcAiUvqAliKYmvL2fo9G1SSZ6S2uVm?usp=sharing)
+---
 
-## Tech Stack
+### **Deployment:**  
+**The MissionVoyager Experience**  
+You can access the live deployment of the immersive space experience through our website.
 
-* HTML
-* CSS
-* Javascript
-* Three.js
-* A-Frame
-* TensorFlow JS
-* handpose
-* Unity
-* WebGL
-* Blender
-* cesium
-* satellite js
+---
+
+### **Documentation:**  
+Find all the relevant files and setup instructions [here].
+
+---
+
+### **Tech Stack:**
+
+- **Frontend:** HTML, CSS, JavaScript
+- **3D and VR Rendering:** Three.js, A-Frame, Unity, WebGL, Blender, Cesium, Satellite.js
+- **Machine Learning Integration:** TensorFlow JS, handpose for interactive gestures
+
+---
+
+**Get ready to embark on a journey beyond Earth with MissionVoyager, where learning meets exploration!**
